@@ -18,7 +18,7 @@ int main()
     // printf("\n");
     for (int i = n-1; i >= 0; i--)
     {
-        printf("reverse arry2[%d]=%d\n",i,arry1[i]);
+        printf("reverse arry1[%d]=%d\n",i,arry1[i]);
     }
     
     return 0;

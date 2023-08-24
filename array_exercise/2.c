@@ -1,21 +1,24 @@
 #include<stdio.h>
 int main()
 {
-    int array[10],min=0;
-    printf("enter the 10 no.\n");
-    for (int i = 0; i < 10; i++)
+    int n,min=0;
+    printf("enter the size of array: ");
+    scanf("%d",&n);
+    int array[n];
+    for (int i = 0; i < n; i++)
     {
+        printf("array[%d]: ",i);
         scanf("%d",&array[i]);
     }
     min=array[0];
-    for (int i = 0; i > 10; i++)
+    for (int i = 0; i > n; i++)
     {
-        if (array[i]>min)
+        if (array[i]<min)
         {
             min=array[i];
         }
         
     }
-    printf("maximum is %d\n",min);
+    printf("minimum is %d\n",min);
     return 0;
 }
