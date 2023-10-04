@@ -21,4 +21,12 @@
 //         i=1;
 //         1>0;
 //         result = 120*1;
-//         result = 120;                                
+//         result = 120;    
+
+
+#include<stdio.h>
+int main()
+{
+    
+    return 0;
+}
